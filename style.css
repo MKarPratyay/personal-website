@@ -1,0 +1,183 @@
+    body{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    i{
+        padding-left: 2px;
+    }
+
+    #first-name{
+        color: darkviolet;
+        font-weight: 700;
+    }
+
+    #last-name{
+        color: darkslategray;
+        font-size: 34px;
+    }
+
+    h1{
+        color: darkviolet;
+        font-size: 55px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    h4{
+        color: darkslategray;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Teko', sans-serif;
+        font-size: 30px;
+    }
+
+    p{
+        color: gray;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+
+
+    .hover-used{
+        color: darkslategray;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Teko', sans-serif;
+        font-size: 28px;
+        text-align: center;
+    }
+    .hover-used:hover{
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        background-image: linear-gradient(45deg, darkviolet, mediumorchid);
+    }
+
+    a{
+        text-decoration: none;
+        background-image: linear-gradient(45deg, darkviolet, mediumorchid);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+    }
+
+
+    #latest-work img{
+        padding-top: 60px;
+        padding-left:6%;
+        float: left;
+        width: 25%; 
+    }
+
+    .text-middle{
+        text-align: center;
+    }
+
+
+    .half-width{
+        float: left;
+        width: 35%;
+        margin-left: 7%;
+        padding-left: 4%;
+        padding-top: 4%;
+    }
+
+    .half-width img{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .first-banner{
+        background-image: url("images/topbanner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover
+    }
+
+    .second-banner{
+        background-image: url("images/midbanner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .third-banner{
+        padding-top: 50px;
+        background-image: url("images/bottombanner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fourth-banner{
+        height: 500px;
+        padding-top: 30px;
+        background-image: url("images/midbanner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover
+    }
+
+    section{
+        height: 700px;
+    }
+    
+
+    #trans-blue{  
+        padding-left: 10px;
+        width: 200px;
+        height: 32px;
+        background-image: linear-gradient(45deg, darkviolet, mediumorchid);
+        transition: width 2s;
+    }
+    
+    #trans-blue:hover {
+        width: 100%;
+    }
+
+    .trans-text-color{  
+        font-size: 25px;
+        color: white;
+    }
+    .fifth-banner{
+        height: 32px;
+    }
+    .finishing{
+        text-align: center;
+        height: 600px;
+        padding-top: 30px;
+        background-image: url("images/bottombanner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover
+    }
+    #client-line-details{
+        color: darkslategray;
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+   
+
+    #email-border{
+        background-image: linear-gradient(45deg, darkviolet, mediumorchid);
+        border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-bottom: 2px;
+    }
+    .email-border-text{
+        color: white;
+    }
+    footer p{
+        font-size: 15px;
+        text-align: center;
+        color: darkslategray;
+        padding-bottom: 30px;
+        
+    }
+
+
+
+
